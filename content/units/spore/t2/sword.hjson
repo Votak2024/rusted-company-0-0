@@ -1,0 +1,48 @@
+{
+type: mech
+name: прокаченный титановый ползун
+description: прокаченный титановый ползунчик
+speed: 0.54
+hitSize:15
+health: 1350
+mechSideSway: 0.25
+weapons: [
+    {
+      name: sword-weapon
+      x: 14
+      y: -2
+      reload: 75
+      shootSound: flame
+      rotate: false
+      mirror: true
+      shoot: {
+        firstShotDelay: 80
+        shots: 14
+        shotDelay: 3
+      }
+      chargeSound: lasercharge2
+      alternate: false
+      bullet: {
+        type: LiquidBulletType
+        liquid: slag
+        speed: 4
+        lifetime: 40
+        damage: 10
+        pierce: true
+        pierceCap: 2
+        buildingDamageMultiplier: 1.3
+        chargeEffect: lightningCharge
+        shootEffect: shootSmall
+      }
+    }
+  ]
+research: {
+      parent: forest
+        requirements: [
+           споры/1800
+           кремень/400
+           титановые детали/500
+           торий/900
+  ]
+ }
+}

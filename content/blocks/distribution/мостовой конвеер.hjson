@@ -1,0 +1,23 @@
+type: ItemBridge
+category: distribution
+size: 1
+health: 40
+junctionReplacement: imaginary-junction
+bridgeReplacement: imaginary-bridge
+//На сколько блоков (плиток) может растянуться
+range: 5
+transportTime: 0.1
+hasPower: false
+name: споровый мостовой конвеер
+description: ты можешь переправлять предметы через стены и другие объекты
+
+requirements: [
+    споры/12
+]
+
+research: {
+    parent: споровый перекресток
+    requirements: [
+        споры/24
+    ]
+}  

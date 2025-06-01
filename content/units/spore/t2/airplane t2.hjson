@@ -1,0 +1,42 @@
+type: flying
+flying: true
+engineSize: 0
+lowAltitude: true 
+name: самолет т2
+description: очень быстрый и больше урона чем у вертолета
+health: 140
+hitSize: 12
+speed: 2
+strafePentalty: 1
+weapons: [
+  {
+    x: 7
+    y: -2
+    rotate: false
+    mirror: true
+    reload: 25
+    shootSound: zvuk-letyaschey-raketyi-27900
+    bullet: {
+      type: BasicBulletType
+      width: 6
+      height: 10
+      weaveMag: 4 
+      weaveScale: 6
+      lifetime: 60
+      speed: 3
+      damage: 25
+      trailWidth: 1.5
+      trailColor: d9dcbc
+      trailLength: 6
+      trailChance: -1
+    }
+  }
+]
+research: {
+      parent: helicopter
+        requirements: [
+           споры/2000
+           кремень/45
+           титановые детали/20
+ ]
+}

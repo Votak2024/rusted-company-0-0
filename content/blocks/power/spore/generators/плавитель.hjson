@@ -1,0 +1,42 @@
+localizedName: нагреватель
+type: ConsumeGenerator
+category: power
+size: 1
+health: 170
+
+hasPower: true
+powerProduction: 1
+itemDuration: 240
+squareSprite: false
+
+consumes: {
+    items: [
+		"сухой уголь/1"
+	]
+}
+
+generateEffect: {
+	x: 0
+	y: 0
+	particles: 1
+    length: 0
+    lifetime: 60
+	type: ParticleEffect
+	sizeFrom: 0
+    sizeTo: 5
+	colorFrom: 6F6E80
+    colorTo: 9898A4
+}
+effectChance: 0.1
+
+requirements: [
+    "споры/20"
+    "титановые детали/5"
+]
+
+research: {
+    parent: солнечная панель
+    requirements: [
+        "астраль/50"
+    ]
+}

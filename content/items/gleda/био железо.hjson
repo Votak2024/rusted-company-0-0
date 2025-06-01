@@ -1,0 +1,10 @@
+{
+  name: био железо
+  description: Био железо - живой ресурс из которого мы сможем получать железо в чистом виде 
+  explosiveness: 0f
+  flammability: 0f
+  radioactivity: 0f
+  charge: 0f
+  color: 7E7E8FFF
+  hardness: 1
+}

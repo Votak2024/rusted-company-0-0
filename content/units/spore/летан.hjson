@@ -1,0 +1,12 @@
+type: flying
+name: летан
+description: юнит не умеющий атаковать
+speed: 2.5 
+flying: true
+health: 150
+armor: 4
+buildSpeed: 4
+mineSpeed: 4
+mineTier: 1
+itemCapacity: 40
+hitSize: 14

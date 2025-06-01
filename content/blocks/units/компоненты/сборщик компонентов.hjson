@@ -1,0 +1,35 @@
+type: Constructor
+name: сборщик компонентов
+description: создает компоненты с помощью которых можно перемещать вещи
+size: 3
+category: units
+requirements: [
+  споры/40
+  сталь/20
+  кремень/15
+  торий/2
+] 
+hasPower: true
+consumes: {
+  power: 0.8
+}
+buildSpeed: 1
+filter: [
+  споровая стена,
+  large-споровая стена,
+  споровая турель,
+  титановая стена,
+]
+squareSprite: false
+conductivePower: true
+researchCostMultiplier: 0.3
+maxBlockSize: 3
+research: {
+      parent: разборщик компонентов
+       requirements: [
+       споры/1700
+       титановая пластина/200
+       сталь/10
+       торий/2300
+  ]
+ }

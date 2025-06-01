@@ -1,0 +1,17 @@
+{
+  name: титановая стена
+  description: стена состоящая из титана
+  type: wall
+  health: 600
+  size: 1
+  requirements:[
+  титановые детали/6
+  ]
+  research: {
+      parent: споровая стена
+       requirements: [
+         титановые детали/200
+   ]
+  }
+  category: defense
+}

@@ -1,0 +1,22 @@
+type: crawl
+name: бронированная кусака
+description: бронированная штучка таких сложно пробить иза своей твердой оболочки
+template: ErekirUnitType
+health: 300
+flying: false
+range: 1
+speed: 0.7
+armor: 3
+hitSize: 11
+omniMovement: false
+rotateSpeed: 2
+drownTimeMultiplier: 1.2
+segments: 3
+drawBody: false
+drawCell: false
+crushDamage: 0.2
+controller: HugAI
+targetAir: false
+segmentScl: 4 
+segmentPhase: 3
+segmentMag: 0.3

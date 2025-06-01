@@ -1,0 +1,18 @@
+localizedName: 10
+description:
+Древний исследовательский бункер разрушенный метеоритом из космоса, из-за нарушения герметичности бункера, окружающая флора начала просачиваться внутрь, из-за того что метеорит занёс с собой ресурсы этой планеты, враги буду старательно захватить эту территорию
+captureWave: 25
+startWaveTimeMultiplier: 3
+planet: тенои
+sector: 10
+difficulty: 1
+alwaysUnlocked: false
+research: {
+parent: 9
+objectives: [
+{
+type: SectorComplete
+preset: 9
+  }
+ ]
+}

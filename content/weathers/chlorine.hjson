@@ -1,0 +1,15 @@
+type: ParticleWeather
+localizedName: chlorine
+name: хлоровая буря
+color: 66FFE3FF
+noiseColor: 4DA6FFFF
+particleRegion: particle
+sizeMax: 7
+sizeMin: 1
+density: 1000
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 0.7
+baseSpeed: 4
+soundVol: 0.53
+force: 1.8

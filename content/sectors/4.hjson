@@ -1,0 +1,16 @@
+localizedName: 4
+description: полулабиринт а для чего он нужен был?
+captureWave: 8
+planet: тенои
+sector: 4
+difficulty: 1
+alwaysUnlocked: false
+research: {
+parent: 3
+objectives: [
+{
+type: SectorComplete
+preset: 3
+  }
+ ]
+}

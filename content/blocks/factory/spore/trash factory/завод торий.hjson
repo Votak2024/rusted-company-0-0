@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": завод торий
+  "description": создает торий из хлама
+  "health": 240,
+  "size": 2,
+  "requirements": [
+    споры/70
+    хлам/15
+    титановые детали/5
+  ],
+  category: power
+  research: {
+      parent: завод титан
+        requirements: [
+
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 90,
+  "consumes": {
+    "power": 0.8,
+    "items": {
+      "items": [
+         { "item": "хлам", "amount": 3}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 30,  
+"outputItem": { "item": "торий", "amount": 1}
+}

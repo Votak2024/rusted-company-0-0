@@ -1,0 +1,42 @@
+localizedName: сжигатель гнили
+type: ConsumeGenerator
+category: power
+size: 2
+health: 180
+
+hasPower: true
+powerProduction: 1
+itemDuration: 240
+squareSprite: false
+
+consumes: {
+    items: [
+		гниль/1
+	]
+}
+
+generateEffect: {
+	x: 0
+	y: 0
+	particles: 3
+    length: 0 
+    lifetime: 180
+	type: ParticleEffect
+	sizeFrom: 1
+    sizeTo: 3
+	colorFrom: 646464FF
+    colorTo: 797979FF
+}
+effectChance: 0.1
+
+requirements: [
+  камень/28
+  хлорофилл/5
+]
+
+research: {
+    parent: ядро жизни
+    requirements: [
+     камень/12
+    ]
+}

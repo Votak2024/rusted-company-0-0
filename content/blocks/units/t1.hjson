@@ -1,0 +1,48 @@
+{
+  type: unitFactory
+  name: t1
+  localizedName: t1
+  description: создает т1 юнитов
+  size: 3
+  consumes: {
+    power: 1.2
+  }
+  plans: [
+    {
+      unit: "helicopter"
+        requirements: [
+           споры/10
+           кремень/25
+   ]
+      time: 2400
+     }
+{
+      unit: "forest"
+        requirements: [
+           споры/45
+           титановые детали/10
+   ]
+      time: 1600
+     }
+{
+      unit: "стальной ползунчик"
+        requirements: [
+           кремень/15
+           стальная пластина/35
+   ]
+      time: 1600
+     }
+      ]
+
+requirements: [
+    споры/450
+    кремень/10
+ ]
+  category: units
+  research: {
+      parent: споровое ядро
+        requirements: [
+           кремень/400
+   ]
+  }
+ }

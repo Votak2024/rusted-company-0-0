@@ -1,0 +1,16 @@
+localizedName: 18
+description: мы после того как неудачно приземлились заметили кучу лавы и вражескую базу и кажись у них есть 1 важная технология
+planet: тенои
+sector: 18
+difficulty: 3
+alwaysUnlocked: false
+addStartingItems: true
+research: {
+parent: 17
+objectives: [
+{
+type: SectorComplete
+preset: 17
+  }
+ ]
+}

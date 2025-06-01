@@ -1,0 +1,56 @@
+type: crawl
+name: жук
+description: жук это улучшеная версия насекомого имеет больше здоровья и защиты его главный атрибут это оружие на спине
+health: 560
+flying: false
+range: 140
+speed: 0.9
+armor: 5
+hitSize: 14
+omniMovement: false
+rotateSpeed: 2.6
+drownTimeMultiplier: 1.2
+segments: 3
+drawBody: false
+drawCell: false
+crushDamage: 0.5
+controller: HugAI
+segmentScl:3
+segmentPhase: 3
+segmentMag: 0.5
+template: ErekirUnitType
+research: {
+      parent: насекомое
+       requirements: [
+       споры/12000
+       железо/2000
+       кремень/5200
+       астраль/8000
+  ]
+ }
+weapons: [
+ {
+    name: жук-weapon
+    rotate: true
+    x: 0
+    y: 0
+    mirror: false
+    shootSound: pew
+    reload: 45
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      damage: 10
+      speed: 10
+      lifetime: 14
+      recoil: 0
+      width: 5
+      height: 8
+      trailWidth: 3
+      trailLength: 4.6
+      trailColor: "486acd"
+      shootEffect: none
+      smokeEffect: none
+    }
+  }
+]

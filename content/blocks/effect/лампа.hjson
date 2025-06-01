@@ -1,0 +1,27 @@
+type: LightBlock
+name: лампа
+description: освещает близ ближайщую територию и помогая в темноте что либо увидеть
+
+health: 70
+size: 1
+requirements: [
+кремень/1
+ ]
+category: effect
+research: {
+      parent: мина
+       requirements: [
+         кремень/2
+         железо/3
+  ]
+ }
+
+squareSprite: false
+brightness: 0.9
+radius: 115
+
+consumes: {
+  power: 0.3
+}
+
+researchCostMultiplier: 0.8

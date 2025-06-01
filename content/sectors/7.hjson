@@ -1,0 +1,16 @@
+localizedName: 7
+description: вражеская база охраняет важный ресурс захватите эту базу и возьмите этот ресурс
+planet: тенои
+sector: 7
+difficulty: 6
+alwaysUnlocked: false
+addStartingItems: true
+research: {
+parent: 6
+objectives: [
+{
+type: SectorComplete
+preset: 6
+  }
+ ]
+}

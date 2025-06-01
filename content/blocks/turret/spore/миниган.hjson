@@ -1,0 +1,65 @@
+{
+  name: миниган
+  localizedName: миниган
+  description: очень скоростная турель
+  ammoTypes:{
+    астраль:{
+      damage: 7
+      buildingDamageMultiplier: 1.3
+      hitColor: a30400be
+      hitEffect: coreBurn
+      shootEffect: blastsmoke
+      range: 120
+      speed: 5
+      type: BasicBulletType
+  }
+ }
+
+shoot: {
+ type: ShootBarrel
+ shotDelay: 3
+    barrels: [
+    3, -6, 0,
+    -3, -6, 0,
+    -8, -6, 0,
+    8, -6, 0
+    ]
+}
+   requirements: [
+    споры/20
+    кремень/15
+    титановые детали/80
+]
+
+   research: {
+      parent: ангел
+        requirements: [
+           споры/1000
+           кремень/45
+           астраль/80
+   ]
+  }
+
+consumes: {
+    liquid: {
+      liquid: water
+      turretSpeed: 2.3
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+  }
+
+  reload: 3
+  range: 120
+  shootEffect: casing1
+  category: turret
+  health: 720
+  size: 2
+  itemCapacity: 10
+  hasLiquids: true
+  lightLiquid: water
+  type: ItemTurret
+
+}

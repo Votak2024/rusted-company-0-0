@@ -1,0 +1,8 @@
+{
+  "displayName": "rusted company",
+  "name": "rc",
+  "autor": "votak",
+  "description": "этот мод добавит в игру новую планету и куча контента",
+  "minGameVersion": 136,
+  "version": 1.0,
+}

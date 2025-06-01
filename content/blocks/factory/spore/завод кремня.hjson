@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": "кремнеевый завод",
+  "description": "создает кремень из угля и песчанника",
+  "health": 120,
+  "size": 2,
+  "requirements": [
+    { "item": "споры", "amount": 40}
+  ],
+  category: power
+  research: {
+      parent: крионитовый завод
+        requirements: [
+           споры/1000
+           крионит/20
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 120,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+         { "item": "сухой уголь", "amount": 1}
+{ "item": "песчанник", "amount": 2}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 60,  
+"outputItem": { "item": "кремень", "amount": 1}
+}

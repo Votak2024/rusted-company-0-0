@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "завод гладкого камня",
+  "description": гладкий камень нужен для стройки неудивительно 
+  "health": 250,
+  "size": 2,
+  "requirements": [
+    { "item": "камень", "amount": 20}
+  ],
+  category: power
+  research: {
+      parent: ядро жизни
+        requirements: [
+          
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 80,
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+         { "item": "камень", "amount": 2}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 60,  
+"outputItem": { "item": "гладкий камень", "amount": 1}
+}

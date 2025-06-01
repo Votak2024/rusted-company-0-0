@@ -1,0 +1,22 @@
+{
+name: споровая коробка
+description: можно хранить руды
+type: StorageBlock
+itemCapacity: 25
+hasItems: true
+health: 120
+size: 1
+requirements: [
+споры/85
+титановые детали/40
+]
+category: effect
+research: {
+      parent: мина
+       requirements: [
+        споры/2000
+        кремень/200
+        торий/40
+  ]
+ }
+}

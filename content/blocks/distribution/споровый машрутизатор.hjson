@@ -1,0 +1,21 @@
+{
+type: router
+name: споровый машрутизатор
+localizedName: споровый машрутизатор
+description: машритизатор это такая вещь которую входит вещь и она рандомно передается по всем разным сторонам
+category: distribution
+junctionReplacement: imaginary-junction
+bridgeReplacement: imaginary-bridge
+acceptsItems: true
+health: 15
+size: 1
+requirements: [
+споры/3
+]
+research: {
+      parent: t-conveyor
+       requirements: [
+        споры/140
+     ]
+    }
+}

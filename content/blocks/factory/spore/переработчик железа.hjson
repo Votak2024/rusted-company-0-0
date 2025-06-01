@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": "переработчик железа",
+  "description": "железо из хлама хорошая штучка",
+  "health": 250,
+  "size": 1,
+  "requirements": [
+    { "item": "споры", "amount": 35}
+    { "item": "кремень", "amount": 4}
+    { "item": "астраль", "amount": 50}
+  ],
+  category: power
+  research: {
+      parent: завод кремня
+        requirements: [
+           споры/2000
+           кремень/400
+           торий/3000
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 60,
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+         { "item": "хлам", "amount": 2}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 60,  
+"outputItem": { "item": "железо", "amount": 1}
+}

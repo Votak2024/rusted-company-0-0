@@ -1,0 +1,35 @@
+{
+  type: unitFactory
+  name: завод помощи
+  localizedName: завод помощи
+  description: создает т1 юнитов которые будут лечить при стрельбе
+  size: 3
+  consumes: {
+    power: 2.2
+  }
+  plans: [
+{
+      unit: "нота"
+        requirements: [
+           споры/45
+           кремень/6
+           торий/20
+   ]
+      time: 1400
+     }
+      ]
+
+requirements: [
+    споры/450
+    кремень/12
+    крионит/8
+ ]
+  category: units
+  research: {
+      parent: споровое ядро
+        requirements: [
+           кремень/230
+           астраль/400
+   ]
+  }
+ }

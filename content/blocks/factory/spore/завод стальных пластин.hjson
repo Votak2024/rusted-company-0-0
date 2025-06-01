@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": завод стальных пластин
+  "description": создает стальные пластины из стали
+  "health": 140,
+  "size": 2,
+  "requirements": [
+    кремень/15
+    титановые детали/40
+    споры/200
+  ],
+  category: power
+  research: {
+      parent: завод стали
+        requirements: [
+           споры/2150
+           титановые детали/200
+           железо/250
+           торий/300
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 50,
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+         { "item": "сталь", "amount": 1}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 60,  
+"outputItem": { "item": "стальная пластина", "amount": 1}
+}

@@ -1,0 +1,17 @@
+localizedName: 14
+description: после убийства королевы не должно быть жуков верно?
+captureWave: 16
+startWaveTimeMultiplier: 3
+planet: тенои
+sector: 14
+difficulty: 2
+alwaysUnlocked: false
+research: {
+parent: 13
+objectives: [
+{
+type: SectorComplete
+preset: 13
+  }
+ ]
+}

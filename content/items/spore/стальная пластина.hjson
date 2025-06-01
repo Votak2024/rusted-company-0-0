@@ -1,0 +1,11 @@
+{
+    type: material
+    name: стальная пластина
+    description: стальная пластина универсально прочный предмет делающийся из обычной стали
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    hardness: 1
+    alwaysUnlock: true
+}

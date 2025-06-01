@@ -1,0 +1,35 @@
+{
+    type: Reconstructor
+    name: фабрика наземных юнитов два
+    localizedName: фабрика наземных юнитов два
+    "description": улучшает т1 юнитов до т2
+    health: 1550
+    size: 3
+    constructTime: 2400
+    upgrades: [
+        ["ниндзя", "воин"]
+    ]
+    consumes: {
+        power: 2
+        items: {
+            items: [
+              кремень/35
+              сталь/15
+              титановые детали/20
+            ]
+        }
+    }
+    requirements: [
+     споры/200
+     крионит/5
+     кремень/20
+     титановая пластина/15
+    ]
+    category: units
+    research: {
+      parent: фабрика наземных юнитов
+       requirements: [
+        алмаз/2500
+  ]
+ }
+ }

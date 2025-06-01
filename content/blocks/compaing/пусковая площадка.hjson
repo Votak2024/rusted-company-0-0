@@ -1,0 +1,24 @@
+{
+  name: пусковая площадка
+  localizedName: пусковая площадка
+  description: Помогает обмениватся с ресурсами между секторами
+  health: 2000
+  type: launchPad
+  category: effect
+  research: {
+    parent: 18
+    requirements: [
+     споры/2000
+     железо/6000
+     торий/8000
+    ]
+  }
+  requirements: [
+   споры/100
+   титановые детали/80
+   железо/60
+  ]
+  size: 3
+  itemCapacity: 100
+  launchTime: 1200
+}

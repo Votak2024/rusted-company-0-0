@@ -1,0 +1,11 @@
+{
+    type: material
+    name: железо
+    description: железо необычный ресурс который будет в основном для создания юнитов и изучения
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    hardness: 1
+    alwaysUnlock: true
+}

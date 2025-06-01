@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": завод герний
+  "description": создает песчанник из хлама
+  "health": 250,
+  "size": 2,
+  "requirements": [
+    хлам/40
+    споры/25
+  ],
+  category: power
+  research: {
+      parent: завод песчанник
+        requirements: [
+
+     ]
+   }
+  "hasPower": false,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 120,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+         { "item": "хлам", "amount": 1}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 30,  
+"outputItem": { "item": "герний", "amount": 1}
+}

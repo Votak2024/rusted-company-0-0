@@ -1,0 +1,6 @@
+type: StaticWall,
+name: стена0,
+variants: 2 
+attributes: {
+  spore: 0.2
+}

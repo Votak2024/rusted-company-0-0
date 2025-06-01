@@ -1,0 +1,11 @@
+{
+    type: material
+    name: сухой уголь
+    description: сухой уголь делает чудеса он попал к нам из серпуло и его функционал понятен для нас
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    hardness: 5
+    alwaysUnlock: true
+}

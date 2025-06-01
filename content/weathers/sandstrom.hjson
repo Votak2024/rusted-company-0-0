@@ -1,0 +1,15 @@
+type: ParticleWeather
+localizedName: sandstorm
+name: песчаная буря
+color: 917C50FF
+noiseColor: 796843FF
+particleRegion: particle
+sizeMax: 7
+sizeMin: 2
+density: 1120
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 0.7
+baseSpeed: 4
+soundVol: 0.53
+force: 1.8

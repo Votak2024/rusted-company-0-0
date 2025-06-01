@@ -1,0 +1,40 @@
+{
+    type: Reconstructor
+    name: t2
+    localizedName: t2
+    "description": улучшает т1 юнитов до т2
+    health: 1550
+    size: 5
+    constructTime: 2400
+    upgrades: [
+        ["forest", "sword"]
+        ["helicopter", "airplane t2"]
+        ["стальной ползунчик", "прокаченый стальной ползунчик"]
+    ]
+    consumes: {
+        power: 2
+        items: {
+            items: [
+              споры/230
+              кремень/40
+              титановые детали/85
+              торий/115
+              крионит/5
+            ]
+        }
+    }
+    requirements: [
+     споры/200
+     крионит/40
+     кремень/20
+    ]
+    category: units
+    research: {
+      parent: t1
+       requirements: [
+        споры/1100
+        кремень/400
+        торий/200
+  ]
+ }
+ }

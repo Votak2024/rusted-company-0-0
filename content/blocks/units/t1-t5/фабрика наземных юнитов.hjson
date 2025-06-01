@@ -1,0 +1,34 @@
+{
+  type: unitFactory
+  name: фабрика наземных юнитов
+  localizedName: фабрика наземных юнитов
+  description: создает т1 юнитов
+  size: 3
+  consumes: {
+    power: 1.4
+  }
+  plans: [
+    {
+      unit: "ниндзя"
+        requirements: [
+           кремень/10
+           сталь/15
+   ]
+      time: 2400
+     }
+      ]
+
+requirements: [
+    споры/200
+    кремень/10
+    стальная пластина/10
+    титановая пластина/5
+ ]
+  category: units
+  research: {
+      parent: споровое ядро
+        requirements: [
+           алмаз/780
+   ]
+  }
+ }

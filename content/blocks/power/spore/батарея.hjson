@@ -1,0 +1,23 @@
+type: Battery
+localizedName: батарея
+category: power
+size: 1
+health: 620
+fullLightColor: "F86D66"
+
+conductivePower: true
+consumes: {
+  powerBuffered: 1200
+}
+
+requirements: [
+    "споры/50"
+]
+
+research: {
+    parent: провод
+    requirements: [
+         споры/50
+         кремень/100  
+    ]
+}

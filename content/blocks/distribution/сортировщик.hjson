@@ -1,0 +1,16 @@
+type: Sorter
+category: distribution
+size: 1
+health: 40
+name: сортировщик
+
+requirements: [
+  споры/4
+] 
+
+research: {
+    parent: затвор
+    requirements: [
+        споры/125
+    ]
+}

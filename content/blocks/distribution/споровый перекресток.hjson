@@ -1,0 +1,24 @@
+{
+type: junction
+category: distribution
+name: споровый перекресток
+localizedName: споровый перекресток
+description: перекресток такая штука коюс помощью которой можно передать вещь через конвеер
+category: distribution
+junctionReplacement: imaginary-junction
+bridgeReplacement: imaginary-bridge
+acceptsItems: true
+health: 20
+size: 1
+speed: 1
+capacity: 1
+requirements: [
+споры/5
+]
+research: {
+      parent: t-conveyor
+       requirements: [
+         споры/325
+        ]
+       }
+}

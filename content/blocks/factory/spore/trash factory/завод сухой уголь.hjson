@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": завод сухой уголь
+  "description": создает сухой уголь из хлама
+  "health": 230,
+  "size": 2,
+  "requirements": [
+    споры/10
+    хлам/10
+  ],
+  category: power
+  research: {
+      parent: завод спор
+        requirements: [
+
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 80,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+         { "item": "хлам", "amount": 2}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 30,  
+"outputItem": { "item": "сухой уголь", "amount": 1}
+}

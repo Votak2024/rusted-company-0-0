@@ -1,0 +1,20 @@
+{
+  name: large-споровая стена
+  description: стена нелохая для первого времени
+  type: wall
+  health: 525
+  size: 2
+  lightningChance: 0.05
+  lightningDamage: 4
+  lightningColor: cf9991
+  requirements:[
+  споры/24
+  ]
+  research: {
+      parent: споровая стена
+       requirements: [
+         споры/400
+   ]
+  }
+  category: defense
+}

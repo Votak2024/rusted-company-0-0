@@ -1,0 +1,11 @@
+{
+    type: material
+    name: споры
+    description: споры удивительная штука для этой планеты
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    hardness: 1
+    alwaysUnlock: true
+}

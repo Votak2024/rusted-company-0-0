@@ -1,0 +1,17 @@
+localizedName: 12
+description: почему здесь много жуков? меня это напрягает
+captureWave: 12
+startWaveTimeMultiplier: 3
+planet: тенои
+sector: 12
+difficulty: 3
+alwaysUnlocked: false
+research: {
+parent: 11
+objectives: [
+{
+type: SectorComplete
+preset: 11
+  }
+ ]
+}

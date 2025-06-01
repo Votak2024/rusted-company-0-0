@@ -1,0 +1,41 @@
+  type: Drill
+  name: лопастная дрель
+  size: 2
+  tier: 5     //Бурит предмет такой прочности
+  drillTime: 700    //Время бурения
+  itemCapacity: 20      //Сколько предметов вмещает
+  rotateSpeed: 4.0      //Скорость вращения части rotator
+  warmupSpeed: 0.001
+  liquidBoostIntensity: 1.3     //Интенсивность ускорения жидкостью
+  liquidCapacity: 5       //Сколько вмещает жидкостей
+  outputLiquid: хлор
+  outputLiquidPerTick: 0.5
+  //Что потребляет
+  consumes: {
+    liquid: {
+      liquid: хлор
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+  }
+  upgrade: {
+    effects: {
+      drillSpeed: 2.3
+    }
+  }
+  //Стоимость постройки
+  requirements: [
+    споры/50
+  ]
+  //Категория, здоровье, скорость, к чему прикрепленно
+  category: production
+  heath: 270
+  speed: 0.26
+  research: {
+      parent: дрель
+      requirements: [
+          споры/2000
+ ]
+}

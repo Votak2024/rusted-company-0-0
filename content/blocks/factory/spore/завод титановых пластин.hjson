@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": завод титановвых пластин
+  "description": создает титановую пластину из титана
+  "health": 230,
+  "size": 2,
+  "requirements": [
+    герний/20
+    титановые детали/80
+  ],
+  category: power
+  research: {
+      parent: переработчик железа
+        requirements: [
+           споры/2000
+           железо/200
+           торий/800
+           титановые детали/250
+           сталь/30
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 80,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+         { "item": "титановые детали", "amount": 2}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 60,  
+"outputItem": { "item": "титановая пластина", "amount": 1}
+}

@@ -1,0 +1,20 @@
+{
+  type: LiquidRouter
+  name: жидкостный машрутизатор
+  localizedName: жидкостный машрутизатор
+  health: 200
+  hasPower: false
+  placeableLiquid: true
+  liquidPressure: 6
+  requirements: [
+  споры/12
+  ]
+       category: liquid
+       research: {
+        parent: труба
+        requirements: [
+           кремень/235
+           титановые детали/125
+  ]
+ }
+}

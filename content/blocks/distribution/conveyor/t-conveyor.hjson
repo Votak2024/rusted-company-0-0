@@ -1,0 +1,21 @@
+  name: споровый конвеер
+  localizedName: споровый конвейор
+  category: distribution
+  speed: 0.06      //Скорость
+  displayedSpeed: 0.06     //Отображаемая скорость
+  health: 15
+  acceptsItems: true      //Может принимать предметы? Да
+  type: Conveyor
+    junctionReplacement: "споровый перекресток"
+    bridgeReplacement: "мостовой конвеер"
+  requirements: [
+    споры/1
+]
+
+//К чему привязан
+research: {
+    parent: споровое ядро
+    requirements: [
+    споры/10
+ ]
+}

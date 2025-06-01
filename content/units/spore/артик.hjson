@@ -1,0 +1,38 @@
+type: flying
+health: 145
+name: артик
+description: помощник разрушителя миров
+alwaysUnlocked: true
+isEnemy: true
+flying: true
+accel: 0.04
+drag: 0.12
+speed: 7
+rotateSpeed: 4
+armor: 1
+outlineColor: 1f1f1f
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 35
+    inaccuracy: 9
+    bullet: {
+      type: MissileBulletType
+      damage: 25
+      splashDamage: 6
+      splashDamageRadius: 7
+      sideAngle: 45
+      sideWidth: 8
+      sideLength: 8
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifeTime: 150
+      shootSound: missile
+}
+}
+]

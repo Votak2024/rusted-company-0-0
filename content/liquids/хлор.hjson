@@ -1,0 +1,11 @@
+
+  name: хлор
+  description: жидкость неизвестная никому  но для ускорения бур самое то
+  color: FAFDFF
+  flammability: 0
+  viscosity: 0.05
+  explosiveness: 0
+  lightColor: FAFDFF
+  heatCapacity: 0.01
+  temperature: 0.4
+  coolant: true

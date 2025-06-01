@@ -1,0 +1,49 @@
+armor: 2
+type: flying
+name: нота
+description: этот юнит необычный он умеет летать и лечить ближащйие объекты
+health: 170
+speed: 3
+flying: true
+drag: 0.06
+accel: 0.12
+engineOffset: 4
+hitSize: 7
+engineSize: 1.5
+canHeal: true
+lowAltitude: true
+weapons: [
+{
+name: нота-weapon
+x: 0
+y: 0.75
+rotate: true
+rotateSpeed: 6
+reload: 60
+recoil: 1 
+shootSound: lasershoot
+inaccuracy: 1 
+alternate: false
+mirror: false
+ejectEffect: none
+bullet: {
+type: LaserBoltBulletType
+speed: 5.2
+damage: 9
+healPercent: 3.5
+collidesTeam: true
+lifetime: 19
+backColor: 98ffa9
+frontColor: ffffff
+}
+}
+]
+research: {
+parent: завод помощи
+requirements: [
+кремень/450
+крионит/300
+астраль/200
+титановые детали/2000
+]
+}

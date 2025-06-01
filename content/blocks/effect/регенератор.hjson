@@ -1,0 +1,64 @@
+research: {
+      parent: сжиматель
+       requirements: [
+       споры/200
+       титановые детали/30
+       стальная пластина/10
+  ]
+ }
+type: RegenProjector
+name: регенератор
+description: востанавливает здания рядом с собой в определеном радиусе требуя взамен энергию
+size: 1
+range: 9
+baseColor: 85c278
+squareSprite: false
+effect: {
+  type: ParticleEffect
+  colorFrom: 85c278
+  colorTo: 69a25e
+  particles: 3
+  line: true
+  length: 4
+  baseLength: 2
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 90
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+consumes: {
+  power: 3.5
+  items: {
+    items: [
+      споры/2
+    ]
+    optional: true
+    booster: true
+  }
+}
+optionalUseTime: 180
+optionalMultiplier: 2.5
+healPercent: 0.06
+requirements: [
+  споры/120
+  кремень/2
+  торий/1
+]
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 85c278
+      layer: 110
+    }
+  ]
+} 
+researchCostMultiplier: 0.5

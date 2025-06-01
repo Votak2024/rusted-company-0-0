@@ -1,0 +1,28 @@
+{
+  type: PowerNode
+  name: провод
+  description: передает ваше электричество
+  size: 1
+  health: 40
+  laserRange: 10
+  maxNodes: 4
+  requirements: [
+    {
+      item: споры
+      amount: 15
+    }
+  ]
+  category: power
+  powerCapacity: 1000
+  laserColor1: 47387DFF
+  laserColor2: 47387DFF
+  laserScale: 0.6
+  researchCostMultiplier: 0.2
+  research: {
+      parent: солнечная панель
+       requirements: [
+         кремень/20
+         споры/40
+  ]
+ }
+}

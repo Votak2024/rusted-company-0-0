@@ -1,0 +1,37 @@
+researchCostMultiplier: 0.5
+type: UnitAssembler
+name: фабрика танков
+description: создает танки изпользуя компаненты
+size: 5
+category: units
+droneType: строительный дрон
+requirements: [
+  титановые детали/20
+  сталь/30
+  кремень/15
+]
+plans: [
+   {
+    type: AssemblerUnitPlan
+    unit: танк
+    requirements: [
+    
+    ]
+    time: 900
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2
+}
+areaSize: 13
+research: {
+      parent: what
+       requirements: [
+       споры/12000
+       кремень/3455
+       стальная пластина/200
+       титановая пластина/450
+       крионит/4000
+  ]
+ }

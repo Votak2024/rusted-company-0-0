@@ -1,0 +1,59 @@
+type: TractorBeamTurret
+name: тягун
+description: притягивает какие либо объекты нанося урон
+
+ targetGround: false
+    targetAir: true
+
+squareSprite: false
+outlineColor: 36363cff
+
+hasPower: true
+hasItems: false
+hasLiquids: true
+
+liquidCapacity: 30
+
+size: 2
+force: 12 
+scaledForce: 9
+range: 235
+damage: 0.4
+scaledHealth: 350
+rotateSpeed: 3.2
+status: burning
+statusDuration: 140
+consumes: {
+ liquid: {
+  liquid: хлор
+  amount: 1.1
+  }
+ power: 3.5
+}
+requirements: [
+споры/340
+кремень/35
+торий/100
+]
+category: turret
+shootSound: minebeam
+shootLength: 1
+laserColor: f3e979
+laserWidth: 0.6
+targetGround: true
+targetAir: true
+
+status: sapped
+statusDuration: 25
+
+researchCostMultiplier: 1.1
+research: {
+      parent: ангел
+       requirements: [
+       споры/2000
+       кремень/100
+       астраль/2000
+       титановые детали/4000
+       крионит/235
+  ]
+ }

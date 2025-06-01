@@ -1,0 +1,55 @@
+type: ContinuousLiquidTurret
+targetAir: true
+targetGround: true
+health: 1150
+size: 3
+range: 135
+recoil: 1
+shake: 1
+liquidConsumed: 0.1
+rotateSpeed: 5
+ammoTypes: {
+  молекула: {
+  type: ContinuousFlameBulletType
+    damage: 25
+    length: 130
+    knockback: 0.2
+    pierceCap: 5
+    status: corroded
+    colors:[
+    4e835e8c,
+    6da37eb2,
+    88c29acc,
+    cbf7d6ff,
+    ffffffff
+    ]
+    lightColor:cbf7d6
+    flareColor:cbf7d6
+  }
+}
+requirements: [
+  споры/800
+  кремень/100
+  крионит/35
+  торий/150
+]
+category: turret
+name: лазер
+loopSound: torch
+shootY: 7
+research: {
+      parent: ангел
+       requirements: [
+       споры/6000
+       кремень/2000
+       сухой уголь/60
+       крионит/1000
+       герний/1250
+       титановые детали/2750
+       торий/2300
+       сталь/20
+       стальная пластина/40
+       титановая пластина/120
+  ]
+ }
+researchCostMultiplier: 0.03
