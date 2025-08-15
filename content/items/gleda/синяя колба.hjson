@@ -1,0 +1,12 @@
+{
+    type: material
+    name: синяя колба
+    description: Синяя колба-она нужна для изучения технологий как и другие колбы каждая колба делается сложнее предыдущей
+    color: D7A500FF
+    explosiveness: 0.f
+    flammability: 0f
+    radioactivity: 0.f
+    charge: 0f
+    hardness: 1
+    alwaysUnlock: true
+}

@@ -1,0 +1,22 @@
+type: CoreBlock
+localizedName: улей
+category: effect
+health: 1200
+size: 2
+
+itemCapacity: 1          //Вместимость ядра
+unitCapModifier: 3          //На сколько увеличивает максимальное количество юнитов, которых можно построить
+unitType: "летан"
+incinerateNonBuildable: false        //Нельзя строить в игре (true - да нельзя, false - нет можно); Для первого ядра стоит ставить true
+isFirstTier: false           //Первое ядро? (У нас да, значит true)
+squareSprite: false             //Квадратный спрайт? (Ставьте false)
+
+//Что нужно для постройки (пока оставим пустым)
+requirements: [
+споры/1000000
+кремень/100000
+титановые детали/40000
+]
+
+alwaysUnlocked: false            //Всегда открыто? (для первого ядра всегда оставляем true)
+drawTeamOverlay: false

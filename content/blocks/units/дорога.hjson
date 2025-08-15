@@ -1,0 +1,27 @@
+type: PayloadConveyor
+localizedName: дорога
+category: units
+size: 3
+health: 300
+
+moveTime: 60
+canOverdrive: false
+underBullets: true
+
+requirements: [
+    споры/10
+    титановые детали/20
+]
+
+research: {
+    parent: what
+    requirements: [
+        споры/100
+        титановая пластина/40
+        сталь/20
+ {
+type: SectorComplete
+preset: 10
+  }
+    ]
+}

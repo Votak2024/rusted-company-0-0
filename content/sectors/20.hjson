@@ -1,0 +1,17 @@
+localizedName: 20
+description: мы дошли уже далеко нам некуда уходить здесь мы встретим главного босса постарайтесь выжить любой ценой и в том числе уничтожить босса будьте оккуратны на вас могут напасть из неожиданного места УДАЧИ ВАМ!!!
+planet: тенои
+captureWave: 20
+sector: 20
+difficulty: 8
+alwaysUnlocked: false
+addStartingItems: true
+research: {
+parent: 19
+objectives: [
+{
+type: SectorComplete
+preset: 19
+  }
+ ]
+}

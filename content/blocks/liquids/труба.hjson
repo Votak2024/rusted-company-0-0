@@ -1,0 +1,19 @@
+{
+  type: conduit
+  name: труба
+  localizedName: труба
+  description: труба интересная вещь чтобы переносить воду на объекты и их ускорять
+  category: liquid
+  health: 120
+  liquidPressure: 2
+  requirements: [
+    споры/8
+   ]
+research: {
+      parent: споровое ядро
+       requirements: [
+         споры/800
+         кремень/600
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+type: BeamDrill
+name: лучевая дрель
+description: выкапывает объекты из стен
+tier: 5
+drillTime: 112
+size: 2
+range: 6
+hasPower: true
+updateEffect: pulverizeRed
+updateEffectChance: 0.03
+drillEffect: mineHuge
+rotateSpeed: 6
+warmupSpeed: 0.01
+itemCapacity: 30
+liquidBoostIntensity: 1.8
+consumes: {
+  power: 0.26
+  liquid: {
+    liquid: хлор
+    amount: 0.001
+    booster: true
+    optional: true
+  }
+}
+category: production
+requirements: [
+  споры/35
+  титановые детали/15
+]
+research: {
+      parent: дробитель скал
+       requirements: [
+       плоть/400
+  ]
+ }

@@ -1,0 +1,12 @@
+{
+    type: material
+    name: хлорофилл
+    description: Хлорофилл (живность)-это смесь всяких микро организмов и всяких листьев веток и тд. Из живности мы получаем много полезных ресурсов в том числе и колбы которые нужны для изучения технологий этой планеты
+    color: 8FDE5DFF
+    explosiveness: 0.f
+    flammability: 0f
+    radioactivity: 0.f
+    charge: 0f
+    hardness: 1
+    alwaysUnlock: true
+}

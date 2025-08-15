@@ -1,0 +1,17 @@
+localizedName: 16
+description: жуки? насекомые? где это все, интересный вопрос
+captureWave: 16
+startWaveTimeMultiplier: 4
+planet: тенои
+sector: 16
+difficulty: 4
+alwaysUnlocked: false
+research: {
+parent: 15
+objectives: [
+{
+type: SectorComplete
+preset: 15
+  }
+ ]
+}

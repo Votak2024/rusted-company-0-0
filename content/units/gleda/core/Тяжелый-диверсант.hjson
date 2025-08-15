@@ -1,0 +1,60 @@
+type: flying
+name: Тяжелый-диверсант
+description: этот дрон специально был создан компанией "H311" эта компания губит планеты цель этого дрона неизвестна но надо знать что дрон создан для УНИЧТОЖЕНИЯ
+speed: 2
+flying: true
+health: 300
+armor: 2
+buildSpeed: 4
+mineSpeed: 4
+mineTier: 1
+itemCapacity: 15
+hitSize: 14
+weapons: [
+  {
+    name: Тяжелый-диверсант1-weapon
+    x: -3.5
+    y: 3.2
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 80
+    inaccuracy: 9
+    bullet: {
+      type: MissileBulletType
+      damage: 55
+      splashDamage: 6
+      splashDamageRadius: 7
+      sideAngle: 45
+      sideWidth: 8
+      sideLength: 8
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifeTime: 150
+      shootSound: missile
+}
+}
+  {
+    name: Тяжелый-диверсант2-weapon
+    x: 3.5
+    y: 3.2
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 80
+    inaccuracy: 9
+    bullet: {
+      type: MissileBulletType
+      damage: 55
+      splashDamage: 6
+      splashDamageRadius: 7
+      sideAngle: 45
+      sideWidth: 8
+      sideLength: 8
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifeTime: 150
+      shootSound: missile
+}
+}
+]

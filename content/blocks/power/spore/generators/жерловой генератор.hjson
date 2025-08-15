@@ -1,0 +1,53 @@
+type: ThermalGenerator
+name: Жерловой генератор
+description: производит энергию ставя на жерло при этом в добавок ты получаешь хлор
+
+squareSprite: false
+
+size: 3
+attribute: hlore
+displayEfficiencyScale: 1
+minEfficiency: 0.0001
+powerProduction: 0.53468
+displayEfficiency: false
+generateEffect: turbinegenerate
+effectChance: 0.05
+category: power
+research: {
+      parent: плавитель
+       requirements: [
+         споры/4000
+         кремень/100
+         титановые детали/240
+         торий/1200
+         крионит/40
+         железо/200
+  ]
+ }
+requirements: [
+  споры/120
+  титановые детали/40
+  торий/200
+]
+ambientSound: hum
+ambientSoundVolume: 0.07
+drawer: {
+  type: DrawMulti
+  drawers: [
+   {
+      type: DrawDefault
+   }
+   {
+      type: DrawBlurSpin
+      suffix: -rotator
+      rotateSpeed: 7.2
+      blurThresh: 0.02
+   }
+ ]
+}
+hasLiquids: true
+outputLiquid: хлор/0.063
+fogRadius: 2.7
+researchCost: [
+  торий/10
+]

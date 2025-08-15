@@ -1,0 +1,62 @@
+type: flying
+name: Темный-диверсант
+description: этот дрон специально был создан компанией "H311" эта компания губит планеты цель этого дрона неизвестна но надо знать что дрон создан для УНИЧТОЖЕНИЯ
+speed: 2.5 
+flying: true
+health: 200
+armor: 1
+buildSpeed: 4
+mineSpeed: 4
+mineTier: 1
+itemCapacity: 25
+hitSize: 14
+weapons: [
+{
+name: Темный-диверсант1-weapon
+    x: -3.5
+    y: 3.2
+    rotate: false
+    mirror: false
+    reload: 20
+    shootSound: shoot
+    top: true
+    bullet: {
+      type: BasicBulletType
+      width: 6
+      height: 10
+      weaveMag: 2
+      weaveScale: 2
+      lifetime: 75
+      speed: 3
+      damage: 10
+      trailWidth: 1
+      trailColor: d9dcbc
+      trailLength: 6
+      trailChance: -1
+    }
+  }
+{
+name: Темный-диверсант2-weapon
+    x: 3.5
+    y: 3.2
+    rotate: false
+    mirror: false
+    reload: 20
+    shootSound: shoot
+    top: true
+    bullet: {
+      type: BasicBulletType
+      width: 6
+      height: 10
+      weaveMag: 2
+      weaveScale: 2
+      lifetime: 75
+      speed: 3
+      damage: 10
+      trailWidth: 1
+      trailColor: d9dcbc
+      trailLength: 6
+      trailChance: -1
+    }
+  }
+]

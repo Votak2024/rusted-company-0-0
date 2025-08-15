@@ -1,0 +1,15 @@
+localizedName: 5
+description: вы на секторе нашли групу ученых которые иследовали сектор ваша задача захватить их и уничтожить
+planet: тенои
+sector: 5
+difficulty: 3
+alwaysUnlocked: false
+research: {
+parent: 4
+objectives: [
+{
+type: SectorComplete
+preset: 4
+  }
+ ]
+}

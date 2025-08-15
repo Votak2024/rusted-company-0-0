@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": завод алмаз
+  "description": создает алмаз из сухого угля
+  "health": 250,
+  "size": 2,
+  "requirements": [
+    хлам/55
+    споры/80
+  ],
+  category: power
+  research: {
+      parent: завод астраль
+        requirements: [
+
+     ]
+   }
+  "hasPower": false,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 90,
+  "consumes": {
+    "power": 2.0,
+    "items": {
+      "items": [
+         { "item": "сухой уголь", "amount": 2}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 10,  
+"outputItem": { "item": "алмаз", "amount": 1}
+}

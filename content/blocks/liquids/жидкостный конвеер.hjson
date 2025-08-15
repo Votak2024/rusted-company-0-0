@@ -1,0 +1,22 @@
+{
+  type: LiquidBridge
+  name: переносчик воды
+  localizedName: переносчик воды
+  health: 200
+  hasPower: false
+  range: 5
+  liquidPressure: 4
+  requirements: [
+    {
+      item: споры
+      amount: 8
+    }
+  ],
+  category: liquid
+  research: {
+      parent: труба
+       requirements: [
+         торий/200
+  ]
+ }
+}

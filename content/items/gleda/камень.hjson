@@ -1,0 +1,12 @@
+{
+    type: material
+    name: камень
+    description: кажись единственная "руда" на этой живой планете, камень основа жизни и стройки
+    color: D7A500FF
+    explosiveness: 0.f
+    flammability: 0f
+    radioactivity: 0.f
+    charge: 0.1
+    hardness: 1
+    alwaysUnlock: true
+}

@@ -1,0 +1,17 @@
+{
+  name: каменная стена
+  description: стены защищают вас от урон и замедляет врагов
+  type: wall
+  health: 220
+  size: 1
+  requirements:[
+  камень/8
+  ]
+  research: {
+      parent: ядро защиты
+       requirements: [
+         гладкий камень/40
+   ]
+  }
+  category: defense
+}

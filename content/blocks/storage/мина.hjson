@@ -1,0 +1,25 @@
+{
+name: мина
+description: эта мина бомбезная
+type: ShockMine
+hasShadow: true
+health: 80
+damage: 45
+tileDamage: 12
+lenght: 10
+tendrils: 6
+size: 1
+requirements: [
+споры/60
+кремень/1
+]
+category: effect
+research: {
+      parent: споровое ядро
+       requirements: [
+       споры/60
+       кремень/20
+       железо/10
+  ]
+ }
+}

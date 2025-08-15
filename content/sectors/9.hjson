@@ -1,0 +1,16 @@
+localizedName: 9
+description: мы нашли ход в бункер но его защищает орда некромантов
+captureWave: 16
+planet: тенои
+sector: 9
+difficulty: 5
+alwaysUnlocked: false
+research: {
+parent: 8
+objectives: [
+{
+type: SectorComplete
+preset: 8
+  }
+ ]
+}

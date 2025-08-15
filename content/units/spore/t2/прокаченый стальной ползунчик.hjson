@@ -1,0 +1,45 @@
+{
+type: mech
+name: прокаченный стальной ползунчик
+description: прокаченный стальной ползунчик
+speed: 0.38
+hitSize:15
+health: 1900
+mechSideSway: 0.25
+weapons: [
+    {
+      name: прокаченый стальной ползунчик-weapon
+      x: 12
+      y: -2
+      reload: 70
+      shootSound: flame
+      rotate: false
+      mirror: true
+      shoot: {
+        firstShotDelay: 80
+        shots: 14
+        shotDelay: 3
+      }
+      chargeSound: lasercharge2
+      alternate: false
+      bullet: {
+        type: LiquidBulletType
+        liquid: slag
+        speed: 4
+        lifetime: 40
+        damage: 12
+        pierce: true
+        pierceCap: 2
+        buildingDamageMultiplier: 1.8
+        chargeEffect: lightningCharge
+        shootEffect: shootSmall
+      }
+    }
+  ]
+research: {
+      parent: стальной ползунчик
+        requirements: [
+           алмаз/6000
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+localizedName: what
+description: странное место (вы сможете изучить после сектора кучу технологий)
+captureWave: 12
+planet: тенои
+sector: 0
+difficulty: 6
+alwaysUnlocked: false
+research: {
+parent: 10
+objectives: [
+{
+type: SectorComplete
+preset: 10
+  }
+ ]
+}

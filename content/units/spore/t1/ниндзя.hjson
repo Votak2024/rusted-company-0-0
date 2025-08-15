@@ -1,0 +1,84 @@
+type: mech
+name: ниндзя
+description: при стрельбе иногда может телепортнутся вперед
+speed: 0.5
+flying: false
+health: 210
+hitSize: 10
+outlineColor: 44413c
+mechLegColor: 44413c
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.1
+    x: 0
+    y: -2.4
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 3
+  }
+]
+  weapons: [
+    {
+      top: false
+      x: 5
+      name: ниндзя-weapon
+      recoil: 0.4
+      shootCone: 45
+        y: -0.3
+        reload: 72
+        rotate: false
+        mirror: true
+        alternate: true
+        shoot: {
+          shots: 2
+          shotDelay: 12
+        }
+        shootSound: energy-blade-launch
+        bullet: {
+          type: BasicBulletType
+          speed: 4
+          lifetime: 32
+          pierce: false
+          damage: 22
+          pierce: true
+          pierceCap: 2
+          width: 28
+          height: 12
+          sprite: rc-energy-blade
+          trailEffect: disperseTrail
+          trailInterval: 3
+        }
+    }
+    {  
+      x: 0
+      y: 0
+      display: false
+      rotate: false
+      mirror: false
+      reload: 210
+      shootCone: 5
+      shootSound: energy-blade-hit
+      bullet: {
+        width: 0
+        speed: 8
+        lifetime: 10
+        despawnEffect: none
+        hitEffect: none
+        height: 0
+        collides: false
+        damage: 0
+        pierce: true
+        pierceBuilding: true
+        recoil: -24
+        impact: true
+      }
+    }
+]
+researchCostMultiplier: 1.5
+research: {
+      parent: фабрика наземных юнитов
+       requirements: [
+       алмаз/10
+  ]
+ }

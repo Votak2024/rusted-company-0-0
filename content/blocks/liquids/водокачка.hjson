@@ -1,0 +1,27 @@
+{
+  type: Pump
+  name: водокачка
+  hasPower: true
+  hasLiquids: true
+  liquidCapacity: 30
+  size: 1
+  squareSprite: false
+  consumes: {
+    power: 0.4
+  }
+  pumpAmount: 0.25
+  category: liquid
+  requirements: [
+    споры/45
+    титановые детали/30
+    
+  ]
+research: {
+      parent: труба
+       requirements: [
+         титановые детали/60
+         кремень/200
+         торий/80
+  ]
+ }
+}

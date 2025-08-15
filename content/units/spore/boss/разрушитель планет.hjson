@@ -1,0 +1,181 @@
+type: flying
+name: разрушитель миров
+description: бронированный мощный корабль который уничтожает планеты
+speed: 0.37
+flying: true
+health: 75000
+armor: 3
+hitSize: 60
+rotateSpeed: 3
+weapons: [
+  {
+    name: разрушитель планет-weapon
+    x: -30
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 25
+    inaccuracy: 9
+    bullet: {
+      type: MissileBulletType
+      damage: 64
+      splashDamage: 15
+      splashDamageRadius: 7
+      sideAngle: 45 
+      sideWidth: 8
+      sideLength: 8
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifeTime: 210
+      shootSound: missile
+}
+}
+{
+    name: разрушитель планет-weapon
+    x: 30
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 25
+    inaccuracy: 9
+    bullet: {
+      type: MissileBulletType
+      damage: 64
+      splashDamage: 15
+      splashDamageRadius: 7
+      sideAngle: 45
+      sideWidth: 8
+      sideLength: 8
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifeTime: 210
+      shootSound: missile
+}
+}
+{
+      name: none
+      reload: 10
+      mirror: false
+      x: 0
+      y: 10
+      shootY: 12
+      recoil: 1.5
+      rotate: false
+      shoot: {
+        type: ShootPattern
+        shots: 3
+        shotDelay: 5
+      }
+      inaccuracy: 12
+      shootSound: flame
+      shootCone: 20
+      bullet: {
+        type: BasicBulletType
+        collidesAir: true
+        speed: 5
+        damage: 30
+        width: 0.1
+        height: 0.1
+        shootEffect: {
+          type: ParticleEffect
+          particles: 30
+          sizeFrom: 5
+          sizeTo: 0
+          length: 170
+          lifetime: 58
+          interp: circleOut
+          colorFrom: D99F6BFF
+          colorTo: F3E979FF
+          cone: 20
+        }
+        smokeEffect: none
+        lifetime: 25
+        despawnEffect: none
+        hittable: false
+        reflectable": false
+        hitEffect: {
+          type: ParticleEffect
+          particles: 15
+          sizeFrom: 5
+          sizeTo: 0
+          length: 20
+          lifetime: 15
+          interp: circleOut
+          colorFrom: F3E979FF
+          colorTo: D99F6BFF
+          cone: 360
+        }
+        pierce: true,
+        incendAmount: 5
+      }
+    }
+]
+parts: [
+    {
+        type: HoverPart
+        x: 0 
+        y: -32 
+        sides: 8
+        mirror: false
+        radius: 18
+        phase: 340
+        stroke: 3 
+        circles: 2
+        minStroke: 0.5
+        layer: 122
+        color: ffa31a
+    }
+    {
+        type: HoverPart
+        x: 20
+        y: 0
+        sides: 8 
+        mirror: false
+        radius: 10
+        phase: 340
+        stroke: 3 
+        circles: 2
+        minStroke: 0.5
+        layer: 122
+        color: ffa31a
+    }
+    {
+        type: HoverPart
+        x: -20
+        y: 0
+        sides: 8
+        mirror: false
+        radius: 10
+        phase: 340
+        stroke: 3 
+        circles: 2
+        minStroke: 0.5 
+        layer: 122
+        color: ffa31a
+    }
+]
+abilities: [
+{
+type: UnitSpawnAbility
+unit: камикадзе
+spawnX: 20
+spawnY: 0
+spawnTime: 240
+}
+{
+type: UnitSpawnAbility
+unit: камикадзе
+spawnX: -20
+spawnY: 0
+spawnTime: 240
+}
+{
+type: UnitSpawnAbility
+unit: артик
+spawnX: 0
+spawnY: -32
+spawnTime: 360
+}
+]

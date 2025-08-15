@@ -1,0 +1,24 @@
+type: CoreBlock
+localizedName: ядро защиты
+category: effect
+health: 1700
+size: 3
+
+itemCapacity: 1600          //Вместимость ядра
+unitCapModifier: 6          //На сколько увеличивает максимальное количество юнитов, которых можно построить
+unitType: "Темный-диверсант"
+incinerateNonBuildable: true        //Нельзя строить в игре (true - да нельзя, false - нет можно); Для первого ядра стоит ставить true
+isFirstTier: true           //Первое ядро? (У нас да, значит true)
+squareSprite: false             //Квадратный спрайт? (Ставьте false)
+
+research: {
+    parent: ядро жизни
+requirements: [
+   камень/2000
+  ]
+ }
+requirements: [
+   камень/400
+  ]
+
+alwaysUnlocked: false           //Всегда открыто? (для первого ядра всегда оставляем true)

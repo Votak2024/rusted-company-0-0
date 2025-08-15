@@ -1,0 +1,15 @@
+type: OverflowGate
+category: distribution
+name: затвор
+health: 40
+
+requirements: [
+  споры/6
+] 
+
+  research: {
+    parent: инвентированый сортировщик
+    requirements: [
+        споры/120
+    ]
+} 

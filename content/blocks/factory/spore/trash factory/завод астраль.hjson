@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": завод астраль
+  "description": создает астраль из хлама
+  "health": 250,
+  "size": 2,
+  "requirements": [
+    хлам/45
+    споры/25
+    торий/10
+  ],
+  category: power
+  research: {
+      parent: завод герний
+        requirements: [
+
+     ]
+   }
+  "hasPower": false,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 80,
+  "consumes": {
+    "power": 0.5,
+    "items": {
+      "items": [
+         { "item": "хлам", "amount": 2}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 30,  
+"outputItem": { "item": "астраль", "amount": 1}
+}

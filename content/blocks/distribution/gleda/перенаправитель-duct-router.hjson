@@ -1,0 +1,21 @@
+
+type: Router
+name: перенаправитель
+description: распределяет предметы по трем сторонам
+category: distribution
+health: 35
+size: 1
+capacity: 3
+
+requirements: [
+    хлорофилл/3
+    гниль/1
+]
+
+researchCostMultiplier: 0.3
+research: {
+      parent: канал-duct
+       requirements: [
+         камень/50
+  ]
+ }

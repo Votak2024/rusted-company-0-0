@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": завод стали
+  "description": "создает сталь из железа и угля
+  "health": 140,
+  "size": 2,
+  "requirements": [
+    кремень/5
+    титановые детали/15
+  ],
+  category: power
+  research: {
+      parent: крионитовый завод
+        requirements: [
+           споры/2000
+           железо/200
+           торий/600
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 50,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+         { "item": "железо", "amount": 1}
+         { "item": "сухой уголь", "amount": 1}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 60,  
+"outputItem": { "item": "сталь", "amount": 1}
+}

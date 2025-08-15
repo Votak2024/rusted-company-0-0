@@ -1,0 +1,128 @@
+localizedName: буря с жуками
+description: эта буря когда появляется сносит постройки поблизости
+
+lifetime: 7200
+template: ErekirUnitType
+type: crawl
+targetable: true
+hittable: true
+physics: true
+rotateSpeed: 0.8
+speed: 1
+health: 3400
+itemCapacity: 0
+hitSize: 24
+range: 64
+drag: 0.05
+accel: 0.05
+engineSize: 0
+createScorch: false
+drawBody: false
+drawCell: false
+fallEffect: none
+fallEngineEffect: none
+deathSound: none
+deathExplosionEffect: none
+omniMovement: false
+clipSize: 1024
+isEnemy: false
+weapons: [
+	{
+		type: Weapon
+		alwaysShooting: true
+		shootY: 0
+		x: 0
+		reload: 6
+		mirror: false
+		shootSound: none
+		rotateSpeed: 0
+		bullet: {
+			type: BasicBulletType
+			pierce: true
+			pierceBuilding: true
+			width: 0
+			lifetime: 1
+			speed: 0
+			hitSize: 64
+			hittable: false
+			reflectable: false
+			absorbable: false
+			shootEffect: none
+			smokeEffect: none
+			hitEffect: none
+			despawnEffect: none
+			damage: 20
+			splashDamage: 20
+			splashDamageRadius: 64
+			splashDamagePierce: true
+			buildingDamageMultiplier: 30
+			knockback: -1.25
+			lightRadius: 0
+			removeAfterPierce: false
+		}
+	}
+]
+abilities: [
+	{
+		type: MoveEffectAbility
+		minVelocity: 0
+		interval: 6
+		parentizeEffects: true
+		effect: {
+			type: MultiEffect
+			effects: [
+				{
+					type: ParticleEffect
+					region: rc-smoke
+					baseRotation: 90
+					colorFrom: 440071FF
+					colorTo: 500085FF
+					spin: 6.875
+					lifetime: 120
+					baseLength: -3
+					length: 120
+					randLength: false
+					cone: 4
+					particles: 1
+					sizeFrom: 8
+					sizeTo: 32
+					layer: 128
+					clip: 1024
+				}
+				{
+					type: ParticleEffect
+					region: rc-offdots
+					baseRotation: 90
+					colorFrom: 5C0099FF
+					colorTo: 6900AFFF
+					spin: 6.875
+					lifetime: 120
+					length: 120
+					randLength: false
+					cone: 22.5
+					particles: 1
+					sizeFrom: 12
+					sizeTo: 48
+					layer: 128
+					clip: 1024
+				}
+				{
+					type: ParticleEffect
+					region: rc-smoke
+					colorFrom: 7700C6FF
+					colorTo: 6900AFFF
+					spin: 6.875
+					lifetime: 30
+					length: 0
+					randLength: false
+					cone: 180
+					particles: 1
+					sizeFrom: 64
+					sizeTo: 4
+					layer: 128
+					clip: 1024
+				}
+			]
+		}
+	}
+]

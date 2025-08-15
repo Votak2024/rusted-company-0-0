@@ -1,0 +1,18 @@
+type: Sorter
+category: distribution
+size: 1
+health: 40
+name: инвертированый сортировщик
+invert: true
+
+requirements: [
+  споры/4
+] 
+
+research: {
+    parent: мостовой конвеер
+    requirements: [
+        споры/120
+        сухой уголь/20
+    ]
+}

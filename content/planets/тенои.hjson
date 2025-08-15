@@ -1,0 +1,91 @@
+generator: PlanetGenerator
+localizedName: "тенои"
+parent: A337
+iconColor: A69E9EFF
+orbitRadius: 19
+hasAtmosphere: true
+updateLighting: true
+atmosphereRadIn: 0.03
+atmosphereRadOut: 0.3
+atmosphereColor: 7109AA
+drawOrbit: true
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "споровое ядро"
+sectorSeed: 0
+startSector: 1
+sectorSize: 2
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+cloudMesh: {
+  type: HexSkyMesh
+  planet: тенои
+  seed: 2
+  speed: 3
+  radius: 0.06
+  divisions: 5
+  color: 767676FF
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: тенои
+    seed: 562697
+    color1: 3D6E70FF
+    color2: A69E9EFF
+    divisions: 5
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]
+ itemWhiteList: [
+ "споры"
+ "крионит"
+ "кремень" 
+ "песчанник"
+ "сухой уголь"
+ "титановые детали"
+ "торий"
+ "астраль"
+ "хлам"
+ "железо"
+ "сталь"
+ "титановая пластина"
+ "стальная пластина"
+ "плоть"
+ "алмаз"
+ ]

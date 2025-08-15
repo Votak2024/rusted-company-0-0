@@ -1,0 +1,36 @@
+type: WallCrafter
+name: дробитель скал
+description: дробит скалы находя в них кремень
+size: 2
+category: production
+research: {
+      parent: энерго
+       requirements: [
+         споры/1000
+         кремень/600
+         астраль/2000
+         торий/200
+  ]
+ }
+requirements: [
+  споры/375
+]
+
+consumes: {
+  liquids: [
+    хлор/0.05
+  ]
+}
+
+drillTime: 220
+output: кремень
+attribute: spore
+maxBoost: 1.2
+boostScale: 0.4
+minEfficiency: 0.15
+baseEfficiency: 0.5
+ambientSound: drill
+ambientSoundVolume: 0.08
+
+squareSprite: false
+researchCostMultiplier: 0.1 

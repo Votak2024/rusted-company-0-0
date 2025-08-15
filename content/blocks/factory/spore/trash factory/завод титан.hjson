@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": завод титан
+  "description": создает титан из хлама
+  "health": 230,
+  "size": 2,
+  "requirements": [
+    споры/20
+    хлам/10
+  ],
+  category: power
+  research: {
+      parent: завод сухой уголь
+        requirements: [
+
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 85,
+  "consumes": {
+    "power": 1.2,
+    "items": {
+      "items": [
+         { "item": "хлам", "amount": 2}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 30,  
+"outputItem": { "item": "титановые детали", "amount": 1}
+}

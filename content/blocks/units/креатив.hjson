@@ -1,0 +1,30 @@
+{
+  type: unitFactory
+  name: креатив
+  category: effect
+  localizedName: креатив
+  description: создает читерских юнитов 
+  size: 3
+  consumes: {
+    power: 3.4
+  }
+  plans: [
+{
+      unit: "некромант"
+        requirements: [
+           споры/450
+           кремень/35
+           торий/260
+           астраль/120
+           кремень/20
+   ]
+      time: 1800
+     }
+      ]
+
+requirements: [
+    споры/800
+    кремень/60
+    крионит/12
+ ]
+ }

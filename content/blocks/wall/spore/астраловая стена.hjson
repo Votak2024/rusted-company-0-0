@@ -1,0 +1,22 @@
+{
+  name: астраловая стена
+  description: отличная вещь чтобы отражать урон противников
+  flashHit: true
+  chanceDeflect: 10
+  type: wall
+  health: 650
+  size: 1
+  requirements:[
+  титановые детали/24
+  астраль/4
+  ]
+  research: {
+      parent: титановая стена
+       requirements: [
+         титановые детали/200
+         астраль/30
+   ]
+  }
+  category: defense
+  envDisabled: 16
+}

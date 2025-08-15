@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": "Лаборатория красных колб",
+  description: лаборатория нужна для производства колб которые нужны для изучения технологий
+  "health": 250,
+  "size": 2,
+  "requirements": [
+  камень/60
+  гладкий камень/ 20
+  хлорофилл/115
+  ],
+  category: power
+  research: {
+      parent: ядро жизни
+        requirements: [
+        камень/400
+        гладкий камень/120
+        гниль/60
+     ]
+   }
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 60,
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+         { "item": "хлорофилл", "amount": 100}
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 100,  
+"outputItem": { "item": "красная колба", "amount": 1}
+}

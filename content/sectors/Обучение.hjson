@@ -1,0 +1,10 @@
+localizedName: Обучение
+description: Вы дрон пришедший из специальной компании для уничтожения (захвата) планет
+captureWave: 5
+planet: гледа
+sector: 0
+difficulty: 0
+alwaysUnlocked: true
+research: {
+parent: ядро жизни
+}

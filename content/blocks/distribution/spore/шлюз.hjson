@@ -1,0 +1,16 @@
+type: OverflowGate
+category: distribution
+name: Нижний затвор
+health: 40
+invert: true
+
+requirements: [
+  споры/6
+] 
+
+  research: {
+    parent: затвор
+    requirements: [
+        споры/230
+    ]
+} 

@@ -1,0 +1,5 @@
+type: OreBlock
+wallOre: true
+name: алмазная стена
+variants: 2
+itemDrop: алмаз

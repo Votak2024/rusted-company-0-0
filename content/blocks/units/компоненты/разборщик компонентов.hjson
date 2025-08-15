@@ -1,0 +1,27 @@
+type: PayloadDeconstructor
+name: разборщик компонентов
+description: разбирает компоненты верня вам ресурсы
+itemCapacity: 100
+size: 3
+category: units
+requirements: [
+  споры/200
+  титановые детали/60
+  титановая пластина/5
+]
+squareSprite: false
+deconstructSpeed: 0.8
+consumes: {
+  power: 2
+  liquid: хлор/0.2
+}
+researchCostMultiplier: 0.5
+research: {
+      parent: дорога
+       requirements: [
+         споры/200
+         кремень/1200
+         крионит/4000
+         
+  ]
+ }

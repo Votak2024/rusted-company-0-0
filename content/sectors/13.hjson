@@ -1,0 +1,17 @@
+localizedName: 13
+description: мы пришли на логово жуков
+captureWave: 12
+startWaveTimeMultiplier: 3
+planet: тенои
+sector: 13
+difficulty: 5
+alwaysUnlocked: false
+research: {
+parent: 12
+objectives: [
+{
+type: SectorComplete
+preset: 12
+  }
+ ]
+}

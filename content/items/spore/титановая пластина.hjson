@@ -1,0 +1,11 @@
+{
+    type: material
+    name: титановая пластина
+    description: титановая пластина почти как стальная только легче делать и нужен для изучения и для постройки некоторых объектов
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    hardness: 1
+    alwaysUnlock: true
+}

@@ -1,0 +1,16 @@
+localizedName: 6
+description: вы нашли его
+captureWave: 12
+planet: тенои
+sector: 6
+difficulty: 3
+alwaysUnlocked: false
+research: {
+parent: 5
+objectives: [
+{
+type: SectorComplete
+preset: 5
+  }
+ ]
+}

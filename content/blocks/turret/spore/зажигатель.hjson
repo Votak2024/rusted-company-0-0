@@ -1,0 +1,71 @@
+{
+  name: зажигатель
+  localizedName: зажигатель
+  description: использует крионит чтобы поджечь врага
+  targetGround: true
+  targetAir: false
+  shoot: {
+   shots: 5
+   shotDelay: 1
+    }
+  shootSound: ognemet
+  ammoTypes:{
+    крионит:{
+	  ammoMultiplier: 5
+      damage: 4
+	  width: 0.8
+      height: 0.8
+	  trailEffect: fireHit
+	  trailInterval: 0.3
+	  sprite: circle-bullet
+	  hitSize: 10
+	  pierce: true
+      buildingDamageMultiplier: 0.9
+      hitColor: FF8252FF
+      hitEffect: hitFlameSmall
+      shootEffect: shootPyraFlame
+	  despawnEffect: none
+      status: огонь
+	  hittable: false
+      statusDuration: 180
+	  speed: 3
+      lifetime: 30
+	  inaccuracy: 7
+  }
+ }
+   requirements: [
+    споры/45
+]
+
+   research: {
+      parent: споровая турель
+        requirements: [
+           споры/400
+           кремень/80
+   ]
+  }
+
+consumes: {
+    liquid: {
+      liquid: water
+      turretSpeed: 1.3
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+  }
+
+  reload: 8
+  recoil: 0
+  shootY: 6
+  shootCone: 30
+  range: 90
+  category: turret
+  health: 230
+  size: 1
+  itemCapacity: 10
+  hasLiquids: true
+  lightLiquid: water
+  type: ItemTurret
+}

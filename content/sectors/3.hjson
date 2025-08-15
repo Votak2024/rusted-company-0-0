@@ -1,0 +1,17 @@
+localizedName: 3
+description: оказывается на планете вы не одни
+captureWave: 5
+planet: тенои
+sector: 3
+research: споровое ядро
+difficulty: 1
+alwaysUnlocked: false
+research: {
+parent: 2
+objectives: [
+{
+type: SectorComplete
+preset: 2
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+localizedName: 17
+description: мы улетели из планеты временно нам нужно добратся до их базы и уничтожить их
+captureWave: 20
+startWaveTimeMultiplier: 4
+planet: тенои
+sector: 17
+difficulty: 8
+alwaysUnlocked: false
+research: {
+parent: 16
+objectives: [
+{
+type: SectorComplete
+preset: 16
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+  name: гниль
+  description: Гниль-мертвые микро организмы и разраставщаяся плесень. Гниль по сути можно называть "вирусом" из гнили мы получаем мало ресурсов но гниль очень хорошо горит тем самым вырабатывая энергию
+  explosiveness: 0f
+  flammability: 0.1
+  radioactivity: 0f
+  charge: 0f
+  cost: 4
+  frames: 2
+  frameTime: 45
+  color: 7E7E8FFF
+  hardness: 1
+}

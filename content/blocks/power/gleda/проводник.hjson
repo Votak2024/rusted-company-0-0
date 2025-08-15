@@ -1,0 +1,28 @@
+{
+  type: PowerNode
+  name: проводник
+  description: передает электричество по заводам фабрикам и другим объектам которые требуют электро энергию
+  size: 1
+  health: 40
+  laserRange: 10
+  maxNodes: 6
+  requirements: [
+    {
+      item: камень
+      amount: 10
+    }
+  ]
+  category: power
+  powerCapacity: 350
+  laserColor1: E68349FF
+  laserColor2: DF7F47FF
+  laserScale: 0.4
+  researchCostMultiplier: 0.2
+  research: {
+      parent: ядро жизни
+       requirements: [
+       камень/100
+       гниль/20
+  ]
+ }
+}

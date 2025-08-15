@@ -1,0 +1,12 @@
+{
+  name: fake-walls
+  description: f
+  type: wall
+  health: 100
+  size: 1
+  requirements:[
+  споры/30
+  ]
+  category: defense
+  drawTeamOverlay: false
+}

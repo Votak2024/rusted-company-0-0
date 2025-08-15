@@ -1,0 +1,27 @@
+  type: DuctBridge
+  name: мост
+  description: переносит вещи будь через конвееры или через какие либо вещи
+update: true
+hasItems: true
+itemCapacity: 2
+isDuct: true
+underBullets: true
+  category: distribution
+  size: 1
+  health: 35
+  range: 6
+  transportTime: 0.3
+  hasPower: false
+
+  requirements: [
+      камень/2
+      хлорофилл/10
+  ]
+
+  researchCostMultiplier: 0.3
+  research: {
+      parent: канал-duct
+       requirements: [
+         хлорофилл/80
+  ]
+ }

@@ -1,0 +1,11 @@
+{
+    type: material
+    name: хлам
+    description: хлам это остатки старой циливизации из него можно получить какие либо ресурсы
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    hardness: 0
+    alwaysUnlock: true
+}

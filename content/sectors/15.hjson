@@ -1,0 +1,17 @@
+localizedName: 15
+description: страный сектор который раньше был пусковым площадкой 
+captureWave: 6
+startWaveTimeMultiplier: 3
+planet: тенои
+sector: 15
+difficulty: 1
+alwaysUnlocked: false
+research: {
+parent: 14
+objectives: [
+{
+type: SectorComplete
+preset: 14
+  }
+ ]
+}

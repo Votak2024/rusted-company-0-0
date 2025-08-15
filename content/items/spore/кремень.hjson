@@ -1,0 +1,11 @@
+{
+    type: material
+    name: кремень
+    description: кремень самое главное что нужно в этом мире
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    hardness: 5
+    alwaysUnlock: true
+}

@@ -1,0 +1,41 @@
+  type: Drill
+  name: собиратель
+  size: 2
+  tier: 1     //Бурит предмет такой прочности
+  drillTime: 150    //Время бурения
+  itemCapacity: 20      //Сколько предметов вмещает
+  rotateSpeed: 2.8      //Скорость вращения части rotator
+  warmupSpeed: 0.001
+  liquidBoostIntensity: 1.2     //Интенсивность ускорения жидкостью
+  liquidCapacity: 5       //Сколько вмещает жидкостей
+  outputLiquid: water
+  outputLiquidPerTick: 0.5
+  //Что потребляет
+  consumes: {
+    liquid: {
+      liquid: water
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+  }
+  upgrade: {
+    effects: {
+      drillSpeed: 1.2
+    }
+  }
+  //Стоимость постройки
+  requirements: [
+    камень/15
+  ]
+  //Категория, здоровье, скорость, к чему прикрепленно
+  category: production
+  heath: 150
+  speed: 0.24
+  research: {
+      parent: ядро жизни
+      requirements: [
+          камень/25
+ ]
+}

@@ -1,0 +1,32 @@
+{
+  name: термалка
+  description: нагреваясь делает энергию
+  type: ThermalGenerator
+  attribute: heat
+  powerProduction: 1.2
+  size: 1
+  generateEffect: {
+    type: ParticleEffect
+    particles: 8
+    length: 10
+    colorFrom: DD0000FF
+    colorTo: 9B3FE6FF
+    interp: circleOut
+  }
+  category: power
+  health: 240
+  requirements: [
+    {
+      item: споры
+      amount: 28
+    }
+  ]
+  research: {
+      parent: солнечная панель
+       requirements: [
+         кремень/10
+         крионит/200
+         торий/60
+  ]
+ }
+}

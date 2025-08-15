@@ -1,0 +1,36 @@
+{
+  type: unitFactory
+  name: второстепеный завод
+  localizedName: второстепеный завод
+  description: создает юнитов второго типа
+  size: 3
+  consumes: {
+    power: 3.4
+  }
+  plans: [
+{
+      unit: "камикадзе"
+        requirements: [
+           споры/45
+           железо/1
+   ]
+      time: 1450
+     }
+      ]
+
+requirements: [
+    споры/450
+    астраль/25
+    кремень/5
+ ]
+  category: units
+  research: {
+      parent: споровое ядро
+        requirements: [
+           кремень/520
+           железо/200
+           торий/20
+           споры/85
+   ]
+  }
+ }

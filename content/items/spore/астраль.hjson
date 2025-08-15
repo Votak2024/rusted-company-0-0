@@ -1,0 +1,12 @@
+{
+    type: material
+    name: астраль
+    description: довольно странный вид материи который упал из космоса, имеет высокую прочность и применяется в промышленности
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0.2
+    charge: 0.1
+    hardness: 5
+    alwaysUnlock: true
+}

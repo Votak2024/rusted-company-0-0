@@ -1,0 +1,12 @@
+{
+    type: material
+    name: плоть
+    description: плоть с виду живая штука но признаков жизни не придает
+    color: 000000
+    explosiveness: 0.1
+    flammability: 0f
+    radioactivity: 0.2
+    charge: 0.1
+    hardness: 3
+    alwaysUnlock: true
+}

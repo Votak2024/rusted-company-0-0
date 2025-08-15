@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: сжиматель
+description: улучшеная версия завода стали
+size: 3
+squareSprite: false
+craftTime: 90
+craftEffect: {
+  type: ParticleEffect
+  particles: 6
+  cone: 360
+  followParent: true
+  rotWithParent: false
+  sizeFrom: 1.2
+  sizeTo: 0.1
+  lifetime: 40
+  length: 3
+  baseLength: 5
+  interp: pow2
+  sizeInterp: pow3In
+}
+research: {
+      parent: дорога
+       requirements: [
+         споры/2000
+         титановые детали/2000
+         крионит/1500
+         сталь/200
+  ]
+ }
+consumes: {
+  items: [
+    железо/2
+    сухой уголь/1
+  ]
+  liquid: хлор/0.05
+}
+outputItem: сталь/4
+category: crafting
+researchCostMultiplier: 0.5
+requirements: [
+  споры/65
+]
+
+ambientSound: hum
+ambientSoundVolume: 0.05
+itemCapacity: 20

@@ -1,0 +1,16 @@
+localizedName: 8
+description: о хлам точто нужно для нас и какойто неизвестный ресурс
+captureWave: 15
+planet: тенои
+sector: 8
+difficulty: 3
+alwaysUnlocked: false
+research: {
+parent: 7
+objectives: [
+{
+type: SectorComplete
+preset: 7
+  }
+ ]
+}

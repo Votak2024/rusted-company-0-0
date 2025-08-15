@@ -1,0 +1,10 @@
+type: SteamVent
+name: песочное жерло
+parent: песок-д
+blendGroup: песок-д
+variants: 2
+effect: ventSteam
+effectColor: 706b63
+attributes: {
+   hlore: 0.941214
+}

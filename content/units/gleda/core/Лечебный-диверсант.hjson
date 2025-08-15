@@ -1,0 +1,67 @@
+type: flying
+name: Лечебный-диверсант
+description: этот дрон специально был создан компанией "H311" эта компания губит планеты цель этого дрона неизвестна но надо знать что дрон создан для УНИЧТОЖЕНИЯ
+speed: 3 
+flying: true
+health: 220
+armor: 1
+buildSpeed: 5
+mineSpeed: 5
+mineTier: 1
+itemCapacity: 35
+hitSize: 14
+canHeal: true
+weapons: [
+{
+name: Лечебный-диверсант1-weapon
+    x: -3.5
+    y: 3.2
+    rotate: false
+    mirror: false
+    reload: 20
+    shootSound: lasershoot
+    top: true
+    bullet: {
+      type: canHeal: true
+      width: 6
+      height: 10
+      collidesTeam: true
+      weaveMag: 2
+      weaveScale: 2
+      lifetime: 10
+      speed: 10
+      damage: 2
+      trailWidth: 1
+      trailColor: d9dcbc
+      trailLength: 6
+      trailChance: -1
+      healPercent: 1
+    }
+  }
+{
+name: Лечебный-диверсант2-weapon
+    x: 3.5
+    y: 3.2
+    rotate: false
+    mirror: false
+    reload: 20
+    shootSound: shoot
+    top: true
+    bullet: {
+      type: LaserBoltBulletType
+      width: 6
+      height: 10
+      weaveMag: 2
+      weaveScale: 2
+      lifetime: 10
+      collidesTeam: true
+      speed: 10
+      damage: 2
+      trailWidth: 1
+      trailColor: d9dcbc
+      trailLength: 6
+      trailChance: -1
+      healPercent: 1
+    }
+  }
+]

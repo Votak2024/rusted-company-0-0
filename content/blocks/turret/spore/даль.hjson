@@ -1,0 +1,60 @@
+{
+    type: ItemTurret
+    name: даль
+    description: эта супер пушка и она стреляет очень далеко сносят колосальный урон
+    health: 850
+    size: 4
+    reload: 780
+    inaccuracy: 0
+    shootSound: explosion
+    range: 550
+    rotateSpeed: 0.7
+    targetGround: true
+    targetAir: false
+    hasLiquids: false
+    maxAmmo: 10
+    hasPower: true
+    ammoPerShot: 8
+
+    ammoTypes: {
+        кремень: { 
+            type: ArtilleryBulletType
+            frontColor: ebac4b
+            backColor: 828282
+            speed: 8
+            damage: 635
+            width: 32
+            height: 64
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            lifetime: 313
+            hitEffect: reactorExplosion
+            splashDamage: 345
+            splashDamageRadius: 120
+            buildingDamageMultiplier: 1.3
+            trailLength: 12.5
+            trailWidth: 7.5
+            trailColor: 828282
+            ammoMultiplier: 1
+          }
+         }
+
+    category: turret
+    shootShake:2
+    requirements: [    
+        споры/900
+        кремень/150
+        титановые детали/800
+        торий/350
+        астраль/200
+ ]
+
+ research: {
+      parent: затмение
+       requirements: [
+         алмаз/8900
+  ]
+ }
+
+ power: 9.5
+}

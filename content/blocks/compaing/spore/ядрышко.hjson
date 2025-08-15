@@ -1,0 +1,28 @@
+type: CoreBlock
+localizedName: ядрышко
+category: effect
+health: 200
+size: 1
+
+itemCapacity: 200          //Вместимость ядра
+unitCapModifier: 1          //На сколько увеличивает максимальное количество юнитов, которых можно построить
+unitType: "летан"
+incinerateNonBuildable: false        //Нельзя строить в игре (true - да нельзя, false - нет можно); Для первого ядра стоит ставить true
+isFirstTier: false           //Первое ядро? (У нас да, значит true)
+squareSprite: false             //Квадратный спрайт? (Ставьте false)
+
+//Что нужно для постройки (пока оставим пустым)
+requirements: [
+споры/200
+]
+
+
+//К чему прикрипленно? (в нашем случае к нашей планете)
+research: {
+      parent: споровое ядро
+       requirements: [
+       споры/10000
+       кремень/120
+  ]
+ }
+alwaysUnlocked: false            //Всегда открыто? (для первого ядра всегда оставляем true)

@@ -1,0 +1,17 @@
+localizedName: 11
+description: место жуков? я думаю нам надо иследовать
+captureWave: 15
+startWaveTimeMultiplier: 3
+planet: тенои
+sector: 11
+difficulty: 3
+alwaysUnlocked: false
+research: {
+parent: 10
+objectives: [
+{
+type: SectorComplete
+preset: 10
+  }
+ ]
+}

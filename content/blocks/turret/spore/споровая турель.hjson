@@ -1,0 +1,60 @@
+{
+  name: разщипитель
+  localizedName: споровая турель
+  description: Необычная турель
+  ammoTypes:{
+    споры:{
+      damage: 8
+      buildingDamageMultiplier: 1.1
+      hitColor: a30400be
+      hitEffect: coreBurn
+      shootEffect: blastsmoke
+      range: 140
+      speed: 5
+      type: BasicBulletType
+  }
+ плоть:{
+      damage: 12
+      buildingDamageMultiplier: 1.3
+      hitColor: a30400be
+      hitEffect: coreBurn
+      shootEffect: blastsmoke
+      range: 140
+      speed: 5
+      type: BasicBulletType
+  }
+ }
+   requirements: [
+    споры/35
+]
+
+   research: {
+      parent: споровое ядро
+        requirements: [
+           споры/400
+   ]
+  }
+
+consumes: {
+    liquid: {
+      liquid: water
+      turretSpeed: 1.3
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+  }
+
+  reload: 30
+  range: 140
+  shootEffect: casing1
+  category: turret
+  health: 200
+  size: 1
+  itemCapacity: 5
+  hasLiquids: true
+  lightLiquid: water
+  type: ItemTurret
+
+}

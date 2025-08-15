@@ -1,0 +1,71 @@
+type: GenericCrafter
+
+name: молекулярная ловушка
+description: всасывает частицы самой планеты получая страную жидкость
+size: 4
+squareSprite: false
+requirements: [
+споры/250
+торий/60
+герний/15
+]
+
+outputLiquid: молекула/0.3
+liquidCapacity: 20
+
+category: crafting
+
+craftEffect: {
+  type: ParticleEffect
+  particles: 6
+  cone: 360
+  followParent: true
+  rotWithParent: false
+  sizeFrom: 1.2
+  sizeTo: 0.1
+  lifetime: 40
+  length: 3
+  baseLength: 5
+  interp: pow2
+  sizeInterp: pow3In
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: молекула
+    padding: 3
+    }
+    {
+    type: DrawDefault
+    }
+    {
+    type: DrawParticles
+    radius: 10
+    particleRad: 17
+    particleLife: 160
+    alpha: 0.5
+    particleSize: 4
+    color: FFFFFF
+    }
+  ]
+}
+
+research: {
+      parent: завод титановых пластин
+       requirements: [
+       споры/2000
+       герний/1000
+       крионит/200
+       сталь/670
+  ]
+ }
+ambientSound: grinding
+ambientSoundVolume: 0.08
+alwaysUnlocked: true

@@ -1,0 +1,65 @@
+type: crawl
+name: королева жуков
+description: королева, она спавнит постоянно жуков и почти небиваемая но медленная
+health: 12500
+flying: false
+range: 160
+speed: 0.25
+armor: 3
+hitSize: 20
+omniMovement: false
+rotateSpeed: 2.6
+drownTimeMultiplier: 1.2
+segments: 5
+drawBody: false
+drawCell: false
+crushDamage: 0.5
+controller: HugAI
+segmentScl: 5
+segmentPhase: 5
+segmentMag: 0.5
+template: ErekirUnitType
+weapons: [
+ {
+    name: жук-weapon
+    rotate: true
+    x: 0
+    y: 0
+    mirror: false
+    shootSound: pew
+    reload: 35
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      damage: 15
+      speed: 10
+      lifetime: 14
+      recoil: 0
+      width: 5
+      height: 8
+      trailWidth: 3
+      trailLength: 4.6
+      trailColor: "486acd"
+      shootEffect: none
+      smokeEffect: none
+    }
+  }
+]
+abilities: [
+{
+type: UnitSpawnAbility
+unit: насекомое
+spawnX: 20
+spawnY: -16
+spawnTime: 240
+}
+]
+abilities: [
+{
+type: UnitSpawnAbility
+unit: жук
+spawnX: 20
+spawnY: -16
+spawnTime: 380
+}
+]

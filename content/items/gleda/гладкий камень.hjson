@@ -1,0 +1,10 @@
+{
+  name: гладкий камень
+  description: Гладкий камень- он нужен для строительства разных сооружений
+  explosiveness: 0f
+  flammability: 0f
+  radioactivity: 0f
+  charge: 0f
+  color: 7E7E8FFF
+  hardness: 1
+}

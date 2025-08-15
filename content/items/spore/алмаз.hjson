@@ -1,0 +1,12 @@
+{
+    type: material
+    name: алмаз
+    description: эта ничем не примечательная руда находится НЕ ПОД СТЕНОЙ А В СТЕНЕ
+    color: 000000
+    explosiveness: 0.1
+    flammability: 0f
+    radioactivity: 0.2
+    charge: 0.1
+    hardness: 3
+    alwaysUnlock: true
+}

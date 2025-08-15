@@ -1,0 +1,72 @@
+name: некромант
+description: спавнит через определеное время камикадзе которые готовы разорвать вас
+type: legs
+legCount: 6
+legLength: 15
+legSpeed: 0.32
+legForwardScl: 0.56
+legMoveSpace: 0.84
+
+outlineColor: 3d3d3a
+
+alwaysUnlocked: true
+flying: false
+shadowElevation: 0.1
+controller: BuilderAI
+payloadCapacity: 2
+pickupUnits: false
+hovering: true
+groundLayer: 60
+
+fogRadius: 7
+drag: 0.5
+speed: 3.5
+isEnemy: false
+lowAltitude: true
+mineWalls: true
+mineFloor: true
+mineSpeed: 1.6
+mineTier: 1
+buildSpeed: 0.75
+accel: 0.1
+rotateSpeed: 2.6
+itemCapacity: 20
+health: 340
+armor: 2
+hitSize: 10
+//useEngineElevation: false
+//engineOffset: 9.7
+//engineSize: 3.4
+//engineColor: fc8a6a
+abilities: [
+]
+weapons: [
+{
+name: некромант-weapon
+x: 4.5
+y: 6
+reload: 86
+shootSound: spark
+rotate: true
+rotateSpeed: 1.6
+recoil: 3
+top: true
+shootCone: 15
+bullet: {
+type: LightningBulletType
+damage: 21
+lightningLength: 14
+lightningLengthRand: 9
+lightningColor: f2b1b6
+}
+}
+]
+abilities: [
+{
+type: UnitSpawnAbility
+unit: камикадзе
+spawnX: 0
+spawnY: -16
+spawnTime: 400
+}
+]

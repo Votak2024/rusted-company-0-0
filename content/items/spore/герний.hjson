@@ -1,0 +1,11 @@
+{
+    type: material
+    name: герний
+    description: ресурс который можно найти под стенами
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    hardness: 1
+    alwaysUnlock: true
+}

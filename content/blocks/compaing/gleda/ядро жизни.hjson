@@ -1,0 +1,25 @@
+type: CoreBlock
+localizedName: ядро жизни
+category: effect
+health: 2000
+size: 3
+
+itemCapacity: 700          //Вместимость ядра
+unitCapModifier: 3          //На сколько увеличивает максимальное количество юнитов, которых можно построить
+unitType: "Лечебный-диверсант"
+incinerateNonBuildable: true        //Нельзя строить в игре (true - да нельзя, false - нет можно); Для первого ядра стоит ставить true
+isFirstTier: true           //Первое ядро? (У нас да, значит true)
+squareSprite: false             //Квадратный спрайт? (Ставьте false)
+requirements: [
+камень/400
+]
+
+
+//К чему прикрипленно? (в нашем случае к нашей планете)
+research: {
+    root: true
+    name: гледа
+	planet: гледа
+}
+
+alwaysUnlocked: true            //Всегда открыто? (для первого ядра всегда оставляем true)

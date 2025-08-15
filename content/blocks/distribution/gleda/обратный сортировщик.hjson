@@ -1,0 +1,19 @@
+type: Sorter
+category: distribution
+size: 1
+health: 40
+name: обратный сортировщик
+description: выбранный предмет отправляется по бокам 
+invert: true
+
+requirements: [
+  хлорофилл/4
+] 
+
+research: {
+    parent: перенаправитель-duct-router
+    requirements: [
+        камень/15
+        гниль/20
+    ]
+}

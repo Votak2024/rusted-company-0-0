@@ -1,0 +1,18 @@
+localizedName: 19
+description: видим последствия уничтожения планеты, насекомые стали настолько агресивными что аш нападют на всех пытаясь выжить
+planet: тенои
+captureWave: 12
+startWaveTimeMultiplier: 5
+sector: 19
+difficulty: 3
+alwaysUnlocked: false
+addStartingItems: true
+research: {
+parent: 18
+objectives: [
+{
+type: SectorComplete
+preset: 18
+  }
+ ]
+}

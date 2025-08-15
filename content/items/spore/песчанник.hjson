@@ -1,0 +1,11 @@
+{
+    type: material
+    name: песчанник
+    description: песок универсальная штука из нее делается кремень самый важный ресурс
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    hardness: 1
+    alwaysUnlock: true
+}
